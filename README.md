@@ -1,0 +1,1 @@
+This repository demonstrates a common data race error in Rust. The code attempts to have multiple mutable references to the same variable, which can lead to unpredictable behavior, crashes or data corruption if not handled carefully. The solution shows how to avoid this data race using techniques like mutexes or other synchronization primitives.
